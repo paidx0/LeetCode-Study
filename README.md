@@ -1,4 +1,4 @@
-# LeetCode-Study（Java题解）
+# LeetCode-Study（Python题解）
 
 ![img](./editor/cn/doc/LeetCode-Study.png)
 
