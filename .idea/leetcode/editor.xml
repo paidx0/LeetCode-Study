@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/editor/cn/[103]二叉树的锯齿形层序遍历.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[103]二叉树的锯齿形层序遍历.md" />
+              <option name="frontendQuestionId" value="leetcode.cn103" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[103]二叉树的锯齿形层序遍历.go" />
+              <option name="titleSlug" value="binary-tree-zigzag-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[107]二叉树的层序遍历 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[107]二叉树的层序遍历 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn107" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[107]二叉树的层序遍历 II.go" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[10]正则表达式匹配.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[10]正则表达式匹配.md" />
+              <option name="frontendQuestionId" value="leetcode.cn10" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[10]正则表达式匹配.go" />
+              <option name="titleSlug" value="regular-expression-matching" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1104]二叉树寻路.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1104]二叉树寻路.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1104" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1104]二叉树寻路.go" />
+              <option name="titleSlug" value="path-in-zigzag-labelled-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[111]二叉树的最小深度.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[111]二叉树的最小深度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn111" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[111]二叉树的最小深度.go" />
+              <option name="titleSlug" value="minimum-depth-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1161]最大层内元素和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1161]最大层内元素和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1161" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1161]最大层内元素和.go" />
+              <option name="titleSlug" value="maximum-level-sum-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[116]填充每个节点的下一个右侧节点指针.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[116]填充每个节点的下一个右侧节点指针.md" />
+              <option name="frontendQuestionId" value="leetcode.cn116" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[116]填充每个节点的下一个右侧节点指针.go" />
+              <option name="titleSlug" value="populating-next-right-pointers-in-each-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[429]N 叉树的层序遍历.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[429]N 叉树的层序遍历.md" />
+              <option name="frontendQuestionId" value="leetcode.cn429" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[429]N 叉树的层序遍历.go" />
+              <option name="titleSlug" value="n-ary-tree-level-order-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[513]找树左下角的值.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[513]找树左下角的值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn513" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[513]找树左下角的值.go" />
+              <option name="titleSlug" value="find-bottom-left-tree-value" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[515]在每个树行中找最大值.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[515]在每个树行中找最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn515" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[515]在每个树行中找最大值.go" />
+              <option name="titleSlug" value="find-largest-value-in-each-tree-row" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[543]二叉树的直径.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[543]二叉树的直径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn543" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[543]二叉树的直径.go" />
+              <option name="titleSlug" value="diameter-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[623]在二叉树中增加一行.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[623]在二叉树中增加一行.md" />
+              <option name="frontendQuestionId" value="leetcode.cn623" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[623]在二叉树中增加一行.go" />
+              <option name="titleSlug" value="add-one-row-to-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[662]二叉树最大宽度.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[662]二叉树最大宽度.md" />
+              <option name="frontendQuestionId" value="leetcode.cn662" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[662]二叉树最大宽度.go" />
+              <option name="titleSlug" value="maximum-width-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[919]完全二叉树插入器.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[919]完全二叉树插入器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn919" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[919]完全二叉树插入器.go" />
+              <option name="titleSlug" value="complete-binary-tree-inserter" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[958]二叉树的完全性检验.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[958]二叉树的完全性检验.md" />
+              <option name="frontendQuestionId" value="leetcode.cn958" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[958]二叉树的完全性检验.go" />
+              <option name="titleSlug" value="check-completeness-of-a-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
