@@ -1,4 +1,4 @@
-# LeetCode-Study
+# LeetCode-Study（Java题解）
 
 ![img](./editor/cn/doc/LeetCode-Study.png)
 
