@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1103]分糖果 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1103]分糖果 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1103" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1103]分糖果 II.go" />
+              <option name="titleSlug" value="distribute-candies-to-people" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1104]二叉树寻路.go">
           <value>
             <LeetcodeEditor>
