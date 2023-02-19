@@ -1,4 +1,4 @@
-# LeetCode-Study
+# LeetCode-Study（Go题解）
 
 ![img](./editor/cn/doc/LeetCode-Study.png)
 
