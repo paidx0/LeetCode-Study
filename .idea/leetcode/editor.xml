@@ -91,6 +91,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1302]层数最深叶子节点的和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1302]层数最深叶子节点的和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1302" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1302]层数最深叶子节点的和.go" />
+              <option name="titleSlug" value="deepest-leaves-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1609]奇偶树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1609]奇偶树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1609" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1609]奇偶树.go" />
+              <option name="titleSlug" value="even-odd-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[429]N 叉树的层序遍历.go">
           <value>
             <LeetcodeEditor>
