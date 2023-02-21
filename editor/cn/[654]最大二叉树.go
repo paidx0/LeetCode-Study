@@ -1,4 +1,4 @@
-//给定一个不重复的整数数组 nums 。 最大二叉树 可以用下面的算法从 nums 递归地构建:
+// 给定一个不重复的整数数组 nums 。 最大二叉树 可以用下面的算法从 nums 递归地构建:
 //
 //
 // 创建一个根节点，其值为 nums 中的最大值。
@@ -13,10 +13,10 @@
 // 示例 1：
 //
 //
-//输入：nums = [3,2,1,6,0,5]
-//输出：[6,3,5,null,2,0,null,null,1]
-//解释：递归调用如下所示：
-//- [3,2,1,6,0,5] 中的最大值是 6 ，左边部分是 [3,2,1] ，右边部分是 [0,5] 。
+// 输入：nums = [3,2,1,6,0,5]
+// 输出：[6,3,5,null,2,0,null,null,1]
+// 解释：递归调用如下所示：
+// - [3,2,1,6,0,5] 中的最大值是 6 ，左边部分是 [3,2,1] ，右边部分是 [0,5] 。
 //    - [3,2,1] 中的最大值是 3 ，左边部分是 [] ，右边部分是 [2,1] 。
 //        - 空数组，无子节点。
 //        - [2,1] 中的最大值是 2 ，左边部分是 [] ，右边部分是 [1] 。
@@ -30,8 +30,8 @@
 // 示例 2：
 //
 //
-//输入：nums = [3,2,1]
-//输出：[3,null,2,null,1]
+// 输入：nums = [3,2,1]
+// 输出：[3,null,2,null,1]
 //
 //
 //
@@ -46,7 +46,7 @@
 //
 // Related Topics 栈 树 数组 分治 二叉树 单调栈 👍 631 👎 0
 
-//leetcode submit region begin(Prohibit modification and deletion)
+// leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -70,7 +70,7 @@ func constructMaximumBinaryTree(nums []int) *TreeNode {
 }
 
 // 单调栈
-//func constructMaximumBinaryTree(nums []int) *TreeNode {
+// func constructMaximumBinaryTree(nums []int) *TreeNode {
 //	tree := make([]*TreeNode, len(nums))
 //	stk := []int{}
 //	for i, num := range nums {
@@ -85,6 +85,6 @@ func constructMaximumBinaryTree(nums []int) *TreeNode {
 //		stk = append(stk, i)
 //	}
 //	return tree[stk[0]]
-//}
+// }
 
-//leetcode submit region end(Prohibit modification and deletion)
+// leetcode submit region end(Prohibit modification and deletion)
