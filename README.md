@@ -8,6 +8,7 @@ LeetCode刷题记录
 [Java题解](https://github.com/paidx0/LeetCode-Study/tree/java)
 [C++题解](https://github.com/paidx0/LeetCode-Study/tree/cplus)
 [Python题解](https://github.com/paidx0/LeetCode-Study/tree/python)
+[Ruby题解](https://github.com/paidx0/LeetCode-Study/tree/ruby)
 
 按照算法进阶石顺序来刷的题
 
