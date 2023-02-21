@@ -34,5 +34,5 @@ LeetCode刷题记录
 ### 生成二叉树
 
 <details> <summary>已完成</summary>
-
+617，95，108，105，106，889，450，654，669，
 </details>
