@@ -1,6 +1,6 @@
 # LeetCode-Study（C++题解）
 
-![img](./editor/cn/doc/LeetCode-Study.png)
+![img](leetcode/editor/cn/doc/content/LeetCode-Study.png)
 
 LeetCode刷题记录
 
