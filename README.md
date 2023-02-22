@@ -14,7 +14,7 @@ LeetCode刷题记录
 
 [算法进阶石](https://github.com/acm-clan/algorithm-stone)
 
-### 遍历二叉树
+### 遍历二叉树-1
 
 <details> <summary>已完成</summary>
 100，101，104，110，112，226，530，543，563，572，606，637，653，671
@@ -39,6 +39,18 @@ LeetCode刷题记录
 </details>
 
 ### 记录路径
+
+<details> <summary>已完成</summary>
+113，114，437，988，1123，1315，1367，1372，1457
+</details>
+
+### 叶子节点
+
+<details> <summary>已完成</summary>
+129
+</details>
+
+### 遍历二叉树-2
 
 <details> <summary>已完成</summary>
 
