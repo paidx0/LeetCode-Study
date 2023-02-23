@@ -33,7 +33,7 @@
 // 0 <= val <= 50 
 // 
 //
-// Related Topics 递归 链表 👍 1164 👎 0
+// Related Topics 递归 链表 👍 1165 👎 0
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -41,12 +41,27 @@
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
- *     struct ListNode *next;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-
-struct ListNode* removeElements(struct ListNode* head, int val){
-
-}
+class Solution {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode *pre = new ListNode(0, head);
+        ListNode *p = pre;
+        while(p != nullptr && p->next != nullptr){
+            if(p->next->val == val){
+                ListNode *tmp = p->next;
+                p->next = tmp->next;
+                delete tmp;
+            }else{
+                p = p->next;
+            }
+        }
+        return pre->next;
+    }
+};
 //leetcode submit region end(Prohibit modification and deletion)

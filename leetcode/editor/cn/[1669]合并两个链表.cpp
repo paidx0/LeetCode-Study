@@ -45,12 +45,29 @@
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
- *     struct ListNode *next;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-
-struct ListNode* mergeInBetween(struct ListNode* list1, int a, int b, struct ListNode* list2){
-
-}
+class Solution {
+public:
+    ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
+        int i = 0;
+        ListNode* p = list1;
+        while(i++ < a - 1) p = p->next;
+        ListNode* logNode = p->next;
+        ListNode* delNode;
+        p->next = list2;
+        for(i = a; i <= b; i++){
+            delNode = logNode;
+            logNode = logNode->next;
+            delete delNode;
+        }
+        while(p->next != nullptr) p = p->next;
+        p->next = logNode;
+        return list1;
+    }
+};
 //leetcode submit region end(Prohibit modification and deletion)

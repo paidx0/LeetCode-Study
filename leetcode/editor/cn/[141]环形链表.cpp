@@ -59,10 +59,26 @@
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
- *     struct ListNode *next;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-bool hasCycle(struct ListNode *head) {
-    
-}
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        if(head == nullptr) return false;
+        ListNode *fast, *low;
+        low = head;
+        fast = head->next;
+        while(fast != nullptr){
+            fast = fast->next;
+            if(fast == nullptr) break;
+            if(fast == low) return true;
+            fast = fast->next;
+            if(fast == low) return true;
+            low = low->next;
+        }
+        return false;
+    }
+};
 //leetcode submit region end(Prohibit modification and deletion)

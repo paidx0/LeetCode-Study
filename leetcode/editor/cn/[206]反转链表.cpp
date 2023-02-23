@@ -40,7 +40,7 @@
 //
 // 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？ 
 //
-// Related Topics 递归 链表 👍 2970 👎 0
+// Related Topics 递归 链表 👍 2971 👎 0
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -48,12 +48,25 @@
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
- *     struct ListNode *next;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-
-struct ListNode* reverseList(struct ListNode* head){
-
-}
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* pre = nullptr;
+        ListNode* curr = head;
+        ListNode* next;
+        while(curr != nullptr){
+            next = curr->next;
+            curr->next = pre;
+            pre = curr;
+            curr = next;
+        }
+        return pre;
+    }
+};
 //leetcode submit region end(Prohibit modification and deletion)

@@ -40,55 +40,70 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+class MyListNode{
+public:
+    int val;
+    MyListNode *next;
+    MyListNode(int val){
+        this->val = val;
+        next = nullptr;
+    };
+};
 
-
-
-typedef struct {
-
-} MyLinkedList;
-
-
-MyLinkedList* myLinkedListCreate() {
-
-}
-
-int myLinkedListGet(MyLinkedList* obj, int index) {
-
-}
-
-void myLinkedListAddAtHead(MyLinkedList* obj, int val) {
-
-}
-
-void myLinkedListAddAtTail(MyLinkedList* obj, int val) {
-
-}
-
-void myLinkedListAddAtIndex(MyLinkedList* obj, int index, int val) {
-
-}
-
-void myLinkedListDeleteAtIndex(MyLinkedList* obj, int index) {
-
-}
-
-void myLinkedListFree(MyLinkedList* obj) {
-
-}
+class MyLinkedList {
+private:
+    int length;
+    MyListNode *head;
+public:
+    MyLinkedList() {
+        this->length = 0;
+        this->head = new MyListNode(0);
+    }
+    
+    int get(int index) {
+        if(index < 0 || index >= length) return -1;
+        MyListNode *p = head->next;
+        for(int i = 0; i < index; i++) p = p->next;
+        return p->val;
+    }
+    
+    void addAtHead(int val) {
+        addAtIndex(0, val);
+    }
+    
+    void addAtTail(int val) {
+        addAtIndex(length, val);
+    }
+    
+    void addAtIndex(int index, int val) {
+        if(index > length) return;
+        if(index < 0) index = 0;
+        MyListNode *p = head;
+        MyListNode *node = new MyListNode(val);
+        for(int i = 0; i < index; i++) p = p->next;
+        node->next = p->next;
+        p->next = node;
+        length++;
+    }
+    
+    void deleteAtIndex(int index) {
+        if(index < 0 || index >= length) return;
+        MyListNode *p = head;
+        for(int i = 0; i < index; i++) p = p->next;
+        MyListNode *q = p->next;
+        p->next = q->next;
+        delete q;
+        length--;
+    }
+};
 
 /**
- * Your MyLinkedList struct will be instantiated and called as such:
- * MyLinkedList* obj = myLinkedListCreate();
- * int param_1 = myLinkedListGet(obj, index);
- 
- * myLinkedListAddAtHead(obj, val);
- 
- * myLinkedListAddAtTail(obj, val);
- 
- * myLinkedListAddAtIndex(obj, index, val);
- 
- * myLinkedListDeleteAtIndex(obj, index);
- 
- * myLinkedListFree(obj);
-*/
+ * Your MyLinkedList object will be instantiated and called as such:
+ * MyLinkedList* obj = new MyLinkedList();
+ * int param_1 = obj->get(index);
+ * obj->addAtHead(val);
+ * obj->addAtTail(val);
+ * obj->addAtIndex(index,val);
+ * obj->deleteAtIndex(index);
+ */
 //leetcode submit region end(Prohibit modification and deletion)

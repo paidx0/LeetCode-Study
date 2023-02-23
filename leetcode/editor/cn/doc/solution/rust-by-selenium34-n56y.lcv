@@ -1,0 +1,42 @@
+### 思路
+
+#### 算法思路
+
+常规模拟，如注释所示。
+
+#### 链表操作
+
+这里 `cur: Option<Box<ListNode>>` 是对 `list1` 的可变引用，此后 `list1` 不再可以拥有其它引用。操作 `cur` 时用 `as_deref_mut()` 返回 `Option<&mut Box<ListNode>>` 类型，这样就可以顺利对结点（`Box<ListNode>`）本身进行可变操作了。
+
+### 代码
+
+* []
+
+```Rust
+impl Solution {
+    pub fn merge_in_between(
+        mut list1: Option<Box<ListNode>>,
+        a: i32,
+        b: i32,
+        list2: Option<Box<ListNode>>,
+    ) -> Option<Box<ListNode>> {
+        // I: 找到 a 的位置.
+        let mut cur = (0..a - 1).fold(&mut list1, |acc, _| &mut acc.as_deref_mut().unwrap().next);
+
+        // II: 把 a 替换为 list2.
+        let ptr_a = std::mem::replace(&mut cur.as_deref_mut().unwrap().next, list2);
+
+        // III: cur 游走到链表末尾.
+        while cur.as_deref_mut().unwrap().next.is_some() {
+            cur = &mut cur.as_deref_mut().unwrap().next;
+        }
+
+        // IV: 找到 b 的位置, 把 cur.next 设为 ptr_b.
+        cur.as_deref_mut().unwrap().next = (0..=b - a).fold(ptr_a, |acc, _| acc.unwrap().next);
+
+        // V: 返回头.
+        list1
+    }
+}
+```
+

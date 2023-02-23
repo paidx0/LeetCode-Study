@@ -174,7 +174,18 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[141]环形链表.md" />
               <option name="frontendQuestionId" value="leetcode.cn141" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[141]环形链表.c" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[141]环形链表.cpp" />
+              <option name="titleSlug" value="linked-list-cycle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[141]环形链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[141]环形链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn141" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[141]环形链表.cpp" />
               <option name="titleSlug" value="linked-list-cycle" />
             </LeetcodeEditor>
           </value>
@@ -185,7 +196,18 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1669]合并两个链表.md" />
               <option name="frontendQuestionId" value="leetcode.cn1669" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1669]合并两个链表.c" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1669]合并两个链表.cpp" />
+              <option name="titleSlug" value="merge-in-between-linked-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[1669]合并两个链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[1669]合并两个链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1669" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[1669]合并两个链表.cpp" />
               <option name="titleSlug" value="merge-in-between-linked-lists" />
             </LeetcodeEditor>
           </value>
@@ -196,7 +218,18 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[203]移除链表元素.md" />
               <option name="frontendQuestionId" value="leetcode.cn203" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[203]移除链表元素.c" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[203]移除链表元素.cpp" />
+              <option name="titleSlug" value="remove-linked-list-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[203]移除链表元素.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[203]移除链表元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn203" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[203]移除链表元素.cpp" />
               <option name="titleSlug" value="remove-linked-list-elements" />
             </LeetcodeEditor>
           </value>
@@ -207,7 +240,18 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[206]反转链表.md" />
               <option name="frontendQuestionId" value="leetcode.cn206" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.c" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.cpp" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[206]反转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.cpp" />
               <option name="titleSlug" value="reverse-linked-list" />
             </LeetcodeEditor>
           </value>
@@ -218,8 +262,30 @@
               <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[707]设计链表.md" />
               <option name="frontendQuestionId" value="leetcode.cn707" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[707]设计链表.c" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[707]设计链表.cpp" />
               <option name="titleSlug" value="design-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[707]设计链表.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[707]设计链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn707" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[707]设计链表.cpp" />
+              <option name="titleSlug" value="design-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[967]连续差相同的数字.c">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/[967]连续差相同的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn967" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[967]连续差相同的数字.c" />
+              <option name="titleSlug" value="numbers-with-same-consecutive-differences" />
             </LeetcodeEditor>
           </value>
         </entry>
