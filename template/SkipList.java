@@ -3,7 +3,6 @@ package template;
 public class SkipList {
     private static final double P = 0.25;
     private static final int MAX_LEVEL = 32;
-    
     private Node head = new Node(-1, MAX_LEVEL);
 
     public SkipList() {
