@@ -14,7 +14,7 @@ public class RBTree<K extends Comparable<K>, V>{
         if(val == null) throw new IllegalArgumentException("Second argument to put() is null.");
         put(root, key, val);
     }
-    public boolean contains(K key) { // 判断是否存在key
+    public boolean contains(K key) { 
         if (key == null) throw new IllegalArgumentException("First argument to contains() is null.");
         return get(root, key) != null;
     }
