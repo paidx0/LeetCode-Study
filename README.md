@@ -77,5 +77,5 @@ LeetCode刷题记录
 ### 所有路径
 
 <details> <summary>已完成</summary>
-
+687，863，979，124，1443
 </details>

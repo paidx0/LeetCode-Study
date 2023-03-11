@@ -201,6 +201,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[124]二叉树中的最大路径和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[124]二叉树中的最大路径和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn124" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[124]二叉树中的最大路径和.go" />
+              <option name="titleSlug" value="binary-tree-maximum-path-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[125]验证回文串.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[125]验证回文串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn125" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[125]验证回文串.go" />
+              <option name="titleSlug" value="valid-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1261]在受污染的二叉树中查找元素.go">
           <value>
             <LeetcodeEditor>
@@ -267,14 +289,36 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1379]找出克隆二叉树中的相同节点.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1379]找出克隆二叉树中的相同节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1379" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1379]找出克隆二叉树中的相同节点.cpp" />
+              <option name="titleSlug" value="find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1379]找出克隆二叉树中的相同节点.go">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1379]找出克隆二叉树中的相同节点.md" />
               <option name="frontendQuestionId" value="leetcode.cn1379" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/editor/cn/[1379]找出克隆二叉树中的相同节点.go" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1379]找出克隆二叉树中的相同节点.cpp" />
               <option name="titleSlug" value="find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1443]收集树上所有苹果的最少时间.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1443]收集树上所有苹果的最少时间.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1443" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1443]收集树上所有苹果的最少时间.go" />
+              <option name="titleSlug" value="minimum-time-to-collect-all-apples-in-a-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -399,6 +443,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[449]序列化和反序列化二叉搜索树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[449]序列化和反序列化二叉搜索树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn449" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[449]序列化和反序列化二叉搜索树.go" />
+              <option name="titleSlug" value="serialize-and-deserialize-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[450]删除二叉搜索树中的节点.go">
           <value>
             <LeetcodeEditor>
@@ -476,6 +531,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[652]寻找重复的子树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[652]寻找重复的子树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn652" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[652]寻找重复的子树.go" />
+              <option name="titleSlug" value="find-duplicate-subtrees" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[654]最大二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -484,6 +550,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[654]最大二叉树.go" />
               <option name="titleSlug" value="maximum-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[655]输出二叉树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[655]输出二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn655" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[655]输出二叉树.go" />
+              <option name="titleSlug" value="print-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -509,6 +586,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[687]最长同值路径.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[687]最长同值路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn687" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[687]最长同值路径.go" />
+              <option name="titleSlug" value="longest-univalue-path" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[701]二叉搜索树中的插入操作.go">
           <value>
             <LeetcodeEditor>
@@ -528,6 +616,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[834]树中距离之和.go" />
               <option name="titleSlug" value="sum-of-distances-in-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[863]二叉树中所有距离为 K 的结点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[863]二叉树中所有距离为 K 的结点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn863" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[863]二叉树中所有距离为 K 的结点.go" />
+              <option name="titleSlug" value="all-nodes-distance-k-in-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -616,6 +715,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[971]翻转二叉树以匹配先序遍历.go" />
               <option name="titleSlug" value="flip-binary-tree-to-match-preorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[979]在二叉树中分配硬币.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[979]在二叉树中分配硬币.md" />
+              <option name="frontendQuestionId" value="leetcode.cn979" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[979]在二叉树中分配硬币.go" />
+              <option name="titleSlug" value="distribute-coins-in-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
