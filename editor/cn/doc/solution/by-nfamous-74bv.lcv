@@ -1,0 +1,65 @@
+### 解题思路
+
+![捕获.JPG](https://pic.leetcode-cn.com/1665286679-sgutXa-%E6%8D%95%E8%8E%B7.JPG)
+1.首先题目说的是”无向树“，注意不是二叉树。
+2.由于fromi < toi，0节点不一定是根节点，但0节点的入度一定是0，所以我们可以通过一些方法把这棵树转化为以0为根节点的树。（前提是edges以fromi从小到大的顺序给出，如果不是，可以先sort（edges)).
+3.我们只需要关注由根到叶节点的路径中，深度最深的苹果（因为深度小的苹果会在取深度大的苹果时“顺带”取了）
+4.我们的目标是——“找到任意两个节点的最近公共祖先节点集合，并使它们的深度和最大”，这样节省的步数是最多的。
+
+### 代码
+
+* cpp
+
+```cpp
+class Solution {
+public:
+    unordered_map<int,int>fa;
+    vector<bool>vis;
+    int ans=0;
+        int countdis(int i,vector<bool>& hasApple)//染色。
+        {   int summ=0;
+            while(vis[i]==0&&i!=0)
+            {
+            if(hasApple[i]==1)
+            hasApple[i]=0;//把深度浅的苹果“顺带”取了，不考虑它。
+            vis[i]=1;
+                summ++;
+                i=fa[i];
+            }
+            return summ;
+        }
+        void swap(int i,int j,vector<bool>& hasApple)
+        {
+            bool flag=0;
+            flag=hasApple[i];
+            hasApple[i]=hasApple[j];
+            hasApple[j]=flag;
+        }
+    int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {//
+        vis.resize(n+1,0);
+        for(auto p:edges)
+        {
+            if(!vis[p[1]])//如果当前的toi没有被加入到树中
+            {fa[p[1]]=p[0];
+            vis[p[1]]=1;
+            }
+            else//如果当前toi已经加入到树中了，那么把fromi加入fa[toi]和toi中间
+            {
+                fa[p[0]]=fa[p[1]];
+                fa[p[1]]=p[0];
+                vis[p[0]]=1;
+                swap(p[0],p[1],hasApple);//同时hasApple的值也要交换。
+            }
+        }
+        std::fill(vis.begin(),vis.end(),0);
+        for(int i=n-1;i>0;i--)//因为fromi<toi，所以深度深的苹果节点值一定更大。
+        {
+            if(hasApple[i]==1)
+                ans+=countdis(i,hasApple);      
+        }
+        return ans*2;
+    }
+    
+};
+```
+

@@ -168,6 +168,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1145]二叉树着色游戏.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1145]二叉树着色游戏.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1145" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1145]二叉树着色游戏.go" />
+              <option name="titleSlug" value="binary-tree-coloring-game" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[114]二叉树展开为链表.go">
           <value>
             <LeetcodeEditor>
@@ -363,6 +374,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[145]二叉树的后序遍历.go" />
               <option name="titleSlug" value="binary-tree-postorder-traversal" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1530]好叶子节点对的数量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1530]好叶子节点对的数量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1530" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1530]好叶子节点对的数量.go" />
+              <option name="titleSlug" value="number-of-good-leaf-nodes-pairs" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -704,6 +726,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[95]不同的二叉搜索树 II.go" />
               <option name="titleSlug" value="unique-binary-search-trees-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[968]监控二叉树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[968]监控二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn968" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[968]监控二叉树.go" />
+              <option name="titleSlug" value="binary-tree-cameras" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[969]煎饼排序.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[969]煎饼排序.md" />
+              <option name="frontendQuestionId" value="leetcode.cn969" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[969]煎饼排序.go" />
+              <option name="titleSlug" value="pancake-sorting" />
             </LeetcodeEditor>
           </value>
         </entry>

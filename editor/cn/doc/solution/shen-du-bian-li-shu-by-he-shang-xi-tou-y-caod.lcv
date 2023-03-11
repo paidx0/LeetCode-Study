@@ -1,0 +1,47 @@
+### 解题思路
+
+使用dp二维数组存储路径
+然后深度遍历树
+判断子节点如果有苹果，每网上走一层加2
+
+### 代码
+
+* golang
+
+```golang
+func minTime(n int, edges [][]int, hasApple []bool) int {
+	dp := make([][]int, n)
+	for _, edge := range edges {
+		dp[edge[0]] = append(dp[edge[0]], edge[1])
+		dp[edge[1]] = append(dp[edge[1]], edge[0])
+	}
+
+	route := make([]bool, n)
+
+	hasApple[0] = false
+	var roll func(int) int
+	roll = func(in int) int {
+		if route[in] {
+			return 0
+		}
+		route[in] = true
+
+		res := 0
+		if len(dp[in]) != 0 {
+			for _, i2 := range dp[in] {
+				res += roll(i2)
+			}
+		}
+
+		if hasApple[in] || (res != 0 && in != 0) {
+			res += 2
+		}
+
+		return res
+	}
+
+	return roll(0)
+}
+
+```
+

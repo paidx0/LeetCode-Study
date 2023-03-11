@@ -1,0 +1,41 @@
+![屏幕截图(118).png](https://pic.leetcode.cn/1675786233-TDdnNJ-%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(118).png)
+
+* 
+
+```
+class Solution {
+    public int minTime(int n, int[][] edges, List<Boolean> hasApple) {
+        int[] p = new int[n];
+        boolean[] used = new boolean[n];
+        used[0] = true;
+        int cnt = 1;
+        Arrays.sort(edges,(a,b)->(a[0]-b[0]));
+        while(cnt<n){
+            for(int[] edge : edges){
+                if(used[edge[0]]&&!used[edge[1]]){
+                    used[edge[1]]=true;
+                    p[edge[1]]=edge[0];
+                    cnt++;
+                }else if(used[edge[1]]&&!used[edge[0]]){
+                    used[edge[0]]=true;
+                    p[edge[0]]=edge[1];
+                    cnt++;
+                }
+            }
+        }
+        Arrays.fill(used,false);
+        int ans = 0;
+        for(int i=0; i<n; i++){
+            if(hasApple.get(i)){
+                int t = i;
+                while(t!=0 && !used[t]){
+                    used[t] = true;
+                    t = p[t];
+                    ans++;
+                }
+            }
+        }
+        return ans*2;
+    }
+```
+
