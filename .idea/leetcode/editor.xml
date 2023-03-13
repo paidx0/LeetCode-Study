@@ -377,6 +377,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1466]重新规划路线.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1466]重新规划路线.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1466" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1466]重新规划路线.go" />
+              <option name="titleSlug" value="reorder-routes-to-make-all-paths-lead-to-the-city-zero" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1530]好叶子节点对的数量.go">
           <value>
             <LeetcodeEditor>
@@ -608,6 +619,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[684]冗余连接.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[684]冗余连接.md" />
+              <option name="frontendQuestionId" value="leetcode.cn684" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[684]冗余连接.go" />
+              <option name="titleSlug" value="redundant-connection" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[685]冗余连接 II.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[685]冗余连接 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn685" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[685]冗余连接 II.go" />
+              <option name="titleSlug" value="redundant-connection-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[687]最长同值路径.go">
           <value>
             <LeetcodeEditor>
@@ -770,6 +803,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[979]在二叉树中分配硬币.go" />
               <option name="titleSlug" value="distribute-coins-in-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[987]二叉树的垂序遍历.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[987]二叉树的垂序遍历.md" />
+              <option name="frontendQuestionId" value="leetcode.cn987" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[987]二叉树的垂序遍历.go" />
+              <option name="titleSlug" value="vertical-order-traversal-of-a-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
