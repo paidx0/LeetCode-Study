@@ -44,40 +44,44 @@
 // leetcode submit region begin(Prohibit modification and deletion)
 
 type Unionfind struct {
-	cnt  int
 	list []int
 }
 
+// 并查集，树中的边数应该比节点数少一个，初始图指向自己
 func NewUnionfind(n int) *Unionfind {
-	var l []int
+	l := make([]int, n)
 	for i := 1; i < n; i++ {
 		l[i] = i
 	}
 	return &Unionfind{
-		cnt:  n,
 		list: l,
 	}
 }
+// 往上找到父节点
 func (receiver Unionfind) find(p int) int {
+	if receiver.list[p] != p {
+		receiver.list[p] = receiver.find(receiver.list[p])
+	}
 	return receiver.list[p]
 }
-func (receiver Unionfind) union(p, q int) {
-	receiver.list[p] = receiver.list[q]
+// 共父节点返回false
+func (receiver Unionfind) union(p, q int) bool {
+	from, to := receiver.find(p), receiver.find(q)
+	if from == to {
+		return false
+	}
+	receiver.list[from] = to
+	return true
 }
 
 func findRedundantConnection(edges [][]int) []int {
-	n := len(edges)
-	var res []int
-	unionfind := NewUnionfind(n + 1)
-	for _, edge := range edges {
-		if unionfind.find(edge[0]) != unionfind.find(edge[1]) {
-			unionfind.union(edge[0], edge[1])
-		} else {
-			res = append(res, edge[0])
-			res = append(res, edge[1])
+	parent := NewUnionfind(len(edges) + 1)
+	for _, e := range edges {
+		if !parent.union(e[0], e[1]) {
+			return e
 		}
 	}
-	return res
+	return []int{}
 }
 
 // leetcode submit region end(Prohibit modification and deletion)

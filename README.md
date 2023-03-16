@@ -85,3 +85,9 @@ LeetCode刷题记录
 <details> <summary>已完成</summary>
 684，685，1466
 </details>
+
+### 剪枝
+
+<details> <summary>已完成</summary>
+814，,865，1110，1325，1339
+</details>
