@@ -24,6 +24,8 @@ LeetCode刷题记录
 
 # LeetCode-树
 
+<details> <summary>展开</summary>
+
 ### 遍历二叉树-1
 
 <details> <summary>已完成</summary>
@@ -101,17 +103,34 @@ LeetCode刷题记录
 <details> <summary>已完成</summary>
 814，,865，1110，1325，1339
 </details>
+</details>
 
 # LeetCode-堆栈队列
+
+<details> <summary>展开</summary>
 
 ### 堆
 
 <details> <summary>已完成</summary>
+1046，355，451，659，347，1642，1753，1705，
+</details>
 
 </details>
 
 # LeetCode-链表
 
+<details> <summary>展开</summary>
+
+</details>
+
 # LeetCode-二分查找
 
+<details> <summary>展开</summary>
+
+</details>
+
 # LeetCode-动态规划
+
+<details> <summary>展开</summary>
+
+</details>
