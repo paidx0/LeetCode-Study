@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1054]距离相等的条形码.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1054]距离相等的条形码.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1054" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1054]距离相等的条形码.go" />
+              <option name="titleSlug" value="distant-barcodes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[105]从前序与中序遍历序列构造二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -476,6 +487,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1704]判断字符串的两半是否相似.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1704]判断字符串的两半是否相似.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1704" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1704]判断字符串的两半是否相似.go" />
+              <option name="titleSlug" value="determine-if-string-halves-are-alike" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[1705]吃苹果的最大数目.go">
           <value>
             <LeetcodeEditor>
@@ -484,6 +506,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[1705]吃苹果的最大数目.go" />
               <option name="titleSlug" value="maximum-number-of-eaten-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1752]检查数组是否经排序和轮转得到.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1752]检查数组是否经排序和轮转得到.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1752" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1752]检查数组是否经排序和轮转得到.go" />
+              <option name="titleSlug" value="check-if-array-is-sorted-and-rotated" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -509,6 +542,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[23]合并K个升序链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[23]合并K个升序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn23" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[23]合并K个升序链表.go" />
+              <option name="titleSlug" value="merge-k-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[2]两数相加.go">
           <value>
             <LeetcodeEditor>
@@ -517,6 +561,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[2]两数相加.go" />
               <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[313]超级丑数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[313]超级丑数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn313" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[313]超级丑数.go" />
+              <option name="titleSlug" value="super-ugly-number" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -792,6 +847,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[701]二叉搜索树中的插入操作.go" />
               <option name="titleSlug" value="insert-into-a-binary-search-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[767]重构字符串.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[767]重构字符串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn767" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[767]重构字符串.go" />
+              <option name="titleSlug" value="reorganize-string" />
             </LeetcodeEditor>
           </value>
         </entry>
