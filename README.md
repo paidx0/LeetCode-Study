@@ -24,7 +24,7 @@ LeetCode刷题记录
 
 # LeetCode-树
 
-<details> <summary>展开</summary>
+<details><summary>展开</summary>
 
 ### 遍历二叉树-1
 

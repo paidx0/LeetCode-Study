@@ -47,6 +47,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1046]最后一块石头的重量.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1046]最后一块石头的重量.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1046" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1046]最后一块石头的重量.go" />
+              <option name="titleSlug" value="last-stone-weight" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[105]从前序与中序遍历序列构造二叉树.go">
           <value>
             <LeetcodeEditor>
@@ -454,6 +465,39 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1642]可以到达的最远建筑.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1642]可以到达的最远建筑.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1642" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1642]可以到达的最远建筑.go" />
+              <option name="titleSlug" value="furthest-building-you-can-reach" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1705]吃苹果的最大数目.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1705]吃苹果的最大数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1705" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1705]吃苹果的最大数目.go" />
+              <option name="titleSlug" value="maximum-number-of-eaten-apples" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[1753]移除石子的最大得分.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[1753]移除石子的最大得分.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1753" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[1753]移除石子的最大得分.go" />
+              <option name="titleSlug" value="maximum-score-from-removing-stones" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/editor/cn/[236]二叉树的最近公共祖先.go">
           <value>
             <LeetcodeEditor>
@@ -484,6 +528,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[337]打家劫舍 III.go" />
               <option name="titleSlug" value="house-robber-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[347]前 K 个高频元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[347]前 K 个高频元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn347" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[347]前 K 个高频元素.go" />
+              <option name="titleSlug" value="top-k-frequent-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[355]设计推特.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[355]设计推特.md" />
+              <option name="frontendQuestionId" value="leetcode.cn355" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[355]设计推特.go" />
+              <option name="titleSlug" value="design-twitter" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -528,6 +594,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[450]删除二叉搜索树中的节点.go" />
               <option name="titleSlug" value="delete-node-in-a-bst" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[451]根据字符出现频率排序.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[451]根据字符出现频率排序.md" />
+              <option name="frontendQuestionId" value="leetcode.cn451" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[451]根据字符出现频率排序.go" />
+              <option name="titleSlug" value="sort-characters-by-frequency" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -627,6 +704,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/editor/cn/[655]输出二叉树.go" />
               <option name="titleSlug" value="print-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[658]找到 K 个最接近的元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[658]找到 K 个最接近的元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn658" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[658]找到 K 个最接近的元素.go" />
+              <option name="titleSlug" value="find-k-closest-elements" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/editor/cn/[659]分割数组为连续子序列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/editor/cn/doc/content/[659]分割数组为连续子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn659" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/editor/cn/[659]分割数组为连续子序列.go" />
+              <option name="titleSlug" value="split-array-into-consecutive-subsequences" />
             </LeetcodeEditor>
           </value>
         </entry>
