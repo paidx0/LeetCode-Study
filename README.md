@@ -129,6 +129,20 @@ LeetCode刷题记录
 295
 </details>
 
+
+#### 堆与Dijkstra算法
+
+<details> <summary style="color: aquamarine ">已完成</summary>
+787，743
+</details>
+
+#### 滑动窗口
+
+<details> <summary style="color: aquamarine ">已完成</summary>
+
+</details>
+
+
 </details>
 
 ---
